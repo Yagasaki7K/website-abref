@@ -1,0 +1,132 @@
+.center {
+    text-align: center;
+}
+
+html {
+    scroll-behavior: smooth;
+    transition: 2s;
+}
+
+section h1, h2 {
+    justify-content: center;
+    text-align: center;
+
+    color: rgba(255, 255, 255, 0.9);
+}
+
+section i {
+    display: flex;
+    justify-content: center;
+    text-align: center;    
+
+    margin-bottom: 25px;
+}
+
+.content {
+    display: flex;
+    margin-left: 20px;
+}
+
+.title-card {
+	font-family: Roboto;
+	font-style: italic;
+	font-weight: normal;
+
+	color: #5c5c5c;
+
+	text-align: center;
+}
+
+.title-card span {
+	font-size: 16px;
+}
+
+.subtitle-card {
+    font-family: Roboto;
+	font-style: italic;
+	font-weight: normal;
+	font-size: 1em;
+
+    margin: 0px;
+
+	color: #5c5c5c;
+
+	text-align: center;
+}
+
+.col {
+	width: 10em;
+    display: flex;
+	justify-content: center;
+
+    margin: 0px 0px 50px 60px;
+
+	color: #000;
+}
+
+.card {
+	width: 300px;
+	height: 280px;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+
+	background-color: #fff;
+	box-shadow: 1px 3px 9px rgba(0, 0, 0, 0.25);
+	border-radius: 12px;
+
+	cursor: pointer;
+
+	transition: 0.5s;
+}
+
+.card:hover {
+	box-shadow: 1px 3px 9px rgba(0, 0, 0, 0.5);
+
+	transform: scale(1.02);
+	transition: 0.3s;
+}
+
+.card img {
+    margin: 70px 0 25px 27px;
+    max-width: 125px;
+}
+
+.card a {
+	text-decoration: none;
+}
+
+.perfil {
+	margin: 100px 0 0 40px;
+}
+
+.logotipo {
+	margin-left: 40px;
+}
+
+.description {
+	margin: -180px 0 0 300px;
+	width: 600px;
+}
+
+section h2 {
+	margin-top: 80px;
+}
+
+@media (max-width: 640px) {
+	.card img {
+		margin-left: 10px;
+	}
+
+	.title-card {
+		font-size: 18px !important;
+		width: 100px;
+		margin-left: 25px;
+	}
+
+	.title-card span {
+		font-size: 12px !important;
+		display: block;
+	}
+}
